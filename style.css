@@ -1,0 +1,181 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+li{
+    padding: 10px;
+}
+
+ul{
+    margin-left: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.cor-background {
+    background-color: #f3f3f3;
+    padding: 20px;
+}
+
+#sobre_mim {
+    background-color: #7ecf6e;
+    padding: 70px;
+}
+
+#formacao {
+    background-color: #5eacc4;
+}
+
+#portfolio {
+    background-color: #5070b4;
+}
+
+#contato {
+    background-color: #aaaaaa;
+}
+
+.colunas {
+    column-count: 1;
+    column-gap: 30px;
+}
+
+ul {
+    list-style-type: disc;
+    color: #000;
+    font-family: 'Nunito', Arial, sans-serif;
+    font-size: 16px;
+}
+
+h2,
+h4 {
+    text-align: center;
+}
+
+#formacao p {
+    padding: 30px;
+    text-align: center;
+}
+
+.projeto {
+    margin-bottom: 20px;
+    padding: 70px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+.projeto h2 {
+    font-size: 1.5rem;
+}
+
+.projeto p {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+}
+
+.projeto-images{
+    margin-top: 35px;
+}
+
+.grid-item img {
+    width: 80%;
+    height: 100%;
+    object-fit:contain;
+}
+
+.container {
+    width: 600px;
+}
+
+.container img{
+    width: 600px;
+    margin: 30px; display: flex;
+    align-items: center;
+    justify-content: end;
+}
+pre {
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+code {
+    font-family: "Courier New", Courier, monospace;
+    width: 800px;
+}
+
+#contact {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+form {
+    max-width: 500px;
+    margin: auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button[type=submit] {
+    background-color: #4c98af;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.home-button {
+    position: fixed;
+    bottom: 20px;
+    left: 10px;
+    color: white;
+    padding: 16px;
+    border: none;
+    border-radius: 50%;
+    font-size: 24px;
+    cursor: pointer;
+}

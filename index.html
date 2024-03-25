@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Meu Portfólio
+    </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Ivo da Silva Rocha</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre_mim" class="cor-background">
+        <h2>Sobre Mim</h2>
+        <div class="colunas">
+            <p><b>Hello/Bonjour/hola seja bem vindo!</b></p>
+            <p>Me chamo Ivo! Sou nascido na Bahia e criado na Bélgica, sou um construtor criativo de coisas, seja
+                software, pessoas ou equipes.
+                Tenho uma paixão profunda pelos meus dois filhos, que são minha maior fonte de inspiração e motivação.
+                Nos meus momentos livres, adoro estar em contato com a natureza,
+                além de desfrutar de filmes e mangás. Sou um apreciador de jantares fora de casa e de dançar, tenho uma
+                grande paixão por viagens e cinemas.
+                Além disso, adoro atividades físicas, como andar de bicicleta com meus filhos, e tenho um amor especial
+                pelas minhas plantas, cuidando delas com dedicação.
+                Estou sempre em busca de novas experiências e aventuras. </p>
+        </div>
+    </section>
+
+    <section id="formacao" class="cor-background">
+        <h2>Formação</h2>
+        <ul>
+            <li>Hotelaria</li>
+            <li>Francês</li>
+            <li>Inglês</li>
+            <li>Espanhol</li>
+            <li>Holandês</li>
+            <li>Português (língua materna)</li>
+        </ul>
+    </section>
+    <section id="portfolio" class="cor-background">
+        <h2>Portfólio</h2>
+
+        <div class="projeto">
+
+            <h4>Projeto 1: Magalu</h4>
+            <p>
+                Este projeto consiste em desenvolver um design de interações que se assemelhe ao aplicativo 
+                original do Magalu, porém, adotando uma abordagem mais simplificada. A necessidade de 
+                simplificação surgiu em conta da complexidade do aplicativo original, que apresenta uma ampla 
+                gama de funções e inúmeras telas, abrangendo desde páginas específicas de produtos até 
+                categorias variadas. A intenção é proporcionar uma experiência de usuário mais acessível e 
+                intuitiva, como forma de visualizar as principais telas do aplicativo.  
+            </p>
+            <div class="projeto-images">
+                <div class="grid-container">
+                    <div class="grid-item"><img src="magalu.png"></div>
+                    <div class="grid-item"><img src="magalu1.png"></div>
+                    <div class="grid-item"><img src="magalu2.png"></div>
+                    <div class="grid-item"><img src="magalu3.png"></div>
+                </div>
+            </div>
+        </div>
+
+        
+    </section>
+
+    <div id="scroll-to-top">
+        <a href="#top"></a>
+    </div>
+    <section id="contato" class="cor-background">
+        <h2>Contato</h2>
+        <p style="font-style: italic;text-align: center;">Suugestões ou duvidas entre em contato preenchendo o
+            formulário abaixo que entraremos em contato em breve.</p>
+
+        <form onsubmit="alert('Mensagem enviada com sucesso!');">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+
+        <div class="home-button">
+            <a href="#top">
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 50 50">
+                    <path d="M 25 1.0507812 C 24.7825 1.0507812 24.565859 1.1197656 24.380859 1.2597656 L 1.3808594 19.210938 C 0.95085938 19.550938 0.8709375 20.179141 1.2109375 20.619141 C 1.5509375 21.049141 2.1791406 21.129062 2.6191406 20.789062 L 4 19.710938 L 4 46 C 4 46.55 4.45 47 5 47 L 19 47 L 19 29 L 31 29 L 31 47 L 45 47 C 45.55 47 46 46.55 46 46 L 46 19.710938 L 47.380859 20.789062 C 47.570859 20.929063 47.78 21 48 21 C 48.3 21 48.589063 20.869141 48.789062 20.619141 C 49.129063 20.179141 49.049141 19.550938 48.619141 19.210938 L 25.619141 1.2597656 C 25.434141 1.1197656 25.2175 1.0507812 25 1.0507812 z M 35 5 L 35 6.0507812 L 41 10.730469 L 41 5 L 35 5 z"></path>
+                </svg>
+            </a>
+        </div>
+    </section>
+
+</body>
+
+</html>
